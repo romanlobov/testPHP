@@ -26,7 +26,7 @@ class S01_IngredientsCest {
         $this->ingredientDescription = 'Описание ингредиента ' . date('l jS \of F Y h:i:s A');
     }
     /* проверка наличия в таблице Ингредиентов заприсей из БД, отсортированных в обратном порядке
-     * todo добавить проверку  пагинации на странице если записей в бд более 10
+     * todo добавить проверку  пагинации на странице если записей в бдфывфыв более 10
      * todo добавить проверку для КСВ
      */
     public function assertIngredientListExistTest(AcceptanceTester $I,  \Page\Ingredients $ingredientsPage)
